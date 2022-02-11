@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Fruitisity
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@700&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,900;1,300;1,400;1,500&display=swap" rel="stylesheet">
+<link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+<link rel='stylesheet' href="style.css">
+</head>
+
+
+<body>
+    
+    <div class="mb-nav">
+        <div class="mb-move-item"></div>
+        <div class="mb-nav-item active">
+            <a href="#home">
+                <i class="bx bxs-home"></i>
+            </a>
+        </div>
+        <div class="mb-nav-item">
+            <a href="#about">
+                <i class='bx bxs-wink-smile'></i>
+            </a>
+        </div>
+        <div class="mb-nav-item">
+            <a href="#food-menu-section">
+                <i class='bx bxs-food-menu'></i>
+            </a>
+        </div>
+        <div class="mb-nav-item">
+            <a href="#testimonial">
+                <i class='bx bxs-comment-detail'></i>
+            </a>
+        </div>
+    </div>
+    <a href="#home" class="back-to-top">
+        <i class="bx bxs-to-top"></i>
+    </a>
+
+
+    <div class="nav">
+        <div class="menu-wrap">
+            <a href="#home">
+                <div class="logo">
+                    FRUITISITY
+                </div>
+            </a>
+            <div class="menu h-xs">
+                <a href="#home">
+                    <div class="menu-item active">
+                        Home
+                    </div>
+                </a>
+                <a href="#about">
+                    <div class="menu-item">
+                        About
+                    </div>
+                </a>
+                <a href="#food-menu-section">
+                    <div class="menu-item">
+                        Menu
+                    </div>
+                </a>
+                <a href="#review-section">
+                    <div class="menu-item">
+                        Reviews
+                    </div>
+                </a>
+            </div>
+            <div class="right-menu">
+                <div class="cart-btn">
+                    <i class='bx bx-cart-alt'></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="home" class="fullheight align-items-center bg-img bg-img-fixed" style="background-image: url(images/home1.jpg);">
+     <div class="container">
+         <div class="row">
+             <div class="col-6 col-xs-12">
+                <div class="slogan">
+                    <h1 class="left-to-right play-on-scroll">
+                        Freshify
+                    </h1>
+                    <p class="left-to-right play-on-scroll delay-2">
+                        Food is medicine. Fruits, veggies, whole grains, healthy fats, lean proteins, seeds, and nuts are loaded with vitamins, minerals, and other nutrients that have antioxidant and anti-inflammatory properties.
+                        Consuming organic, whole foods will help you protect from various diseases.
+                    </p>
+                    <div class="left-to-right play-on-scroll delay-4">
+                        <button>
+                            Grab Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="about fullheight align-items-center" id="about">
+       <div class="container">
+           <div class="row">
+               <div class="col-7 h-xs">
+                   <img src="images/about.jpg" alt="" class="fullwidth left-to-right play-on-scroll">
+               </div>
+               <div class="col-5 col-xs-12 align-items-center">
+                  <div class="about-slogan right-to-left play-on-scroll">
+                      <h3>
+                          <span class="primary-color">We</span> Prepared <span class="primary-color">Delicious</span> Memories Only <span class="primary-color">For You !!!</span>
+                      </h3>
+                      <p>
+                        Vegan food is soul food in its truest form. 
+                        Soul food means to feed the soul. And to me, your soul is your intent. 
+                        If your intent is pure, you are pure.
+                      </p>
+                  </div>
+               </div>
+           </div>
+       </div>
+    </section>
+    <section class="align-items-center bg-img bg-img-fixed" id="food-menu-section" style="background-image: url(images/foodmenu.jpg);">
+    <div class="container">
+        <div class="food-menu">
+            <h1>
+                Which Item <span class="primary-color">You </span> Take Today!
+            </h1>
+            <p>
+                Choose Your dises for today and freshify yourself whole day. 
+                Eat healthy brings you much more energy & keep active all day long.
+                Grab Your Meal Now!
+            </p>
+            <div class="food-category">
+                <div class="zoom play-on-scroll">
+                    <button class="active" data-food-type="all">
+                        All Items
+                    </button>
+                </div>
+                <div class="zoom play-on-scroll delay-2">
+                    <button data-food-type="salad">
+                        Special Salad
+                    </button>
+                </div>
+                <div class="zoom play-on-scroll delay-4">
+                    <button data-food-type="lorem">
+                        Chinese
+                    </button>
+                </div>
+                <div class="zoom play-on-scroll delay-6">
+                    <button data-food-type="ipsum">
+                        Thai
+                    </button>
+                </div>
+                <div class="zoom play-on-scroll delay-8">
+                    <button data-food-type="dolor">
+                        SeaFood
+                    </button>
+                </div>
+            </div>
+
+
+            <div class="food-item-wrap all">
+                <div class="food-item salad-type">
+                    <div class="item-wrap bottom-up play-on-scroll">
+                        <div class="item-img">
+                            <div class="img-holder bg-img" style="background-image: url(images/specialsalad.jpg);"></div>
+                        </div>
+                        <div class="item-info">
+                            <div>
+                                <h3>
+                                    Special Salad
+                                </h3>
+                                <span>
+                                    150$
+                                </span>
+                            </div>
+                            <div class="cart-btn">
+                                <i class="bx bx-cart-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="food-item lorem-type">
+                    <div class="item-wrap bottom-up play-on-scroll">
+                        <div class="item-img">
+                            <div class="img-holder bg-img"
+                                style="background-image: url('images/chinese.jpg');"></div>
+                        </div>
+                        <div class="item-info">
+                            <div>
+                                <h3>
+                                    Chinese
+                                </h3>
+                                <span>
+                                    80$
+                                </span>
+                            </div>
+                            <div class="cart-btn">
+                                <i class='bx bx-cart-alt'></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="food-item ipsum-type">
+                    <div class="item-wrap bottom-up play-on-scroll">
+                        <div class="item-img">
+                            <div class="img-holder bg-img"
+                                style="background-image: url('images/thai.jpg');">
+                            </div>
+                        </div>
+                        <div class="item-info">
+                            <div>
+                                <h3>
+                                    Thai
+                                </h3>
+                                <span>
+                                    100$
+                                </span>
+                            </div>
+                            <div class="cart-btn">
+                                <i class='bx bx-cart-alt'></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="food-item lorem-type">
+                    <div class="item-wrap bottom-up play-on-scroll">
+                        <div class="item-img">
+                            <div class="img-holder bg-img"
+                                style="background-image: url('images/ramen.jpg');"></div>
+                        </div>
+                        <div class="item-info">
+                            <div>
+                                <h3>
+                                    Ramen
+                                </h3>
+                                <span>
+                                    60$
+                                </span>
+                            </div>
+                            <div class="cart-btn">
+                                <i class='bx bx-cart-alt'></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="food-item dolor-type">
+                    <div class="item-wrap bottom-up play-on-scroll">
+                        <div class="item-img">
+                            <div class="img-holder bg-img"
+                                style="background-image: url('images/vegfishsalad.jpg');"></div>
+                        </div>
+                        <div class="item-info">
+                            <div>
+                                <h3>
+                                    Vega Fish
+                                </h3>
+                                <span>
+                                    120$
+                                </span>
+                            </div>
+                            <div class="cart-btn">
+                                <i class='bx bx-cart-alt'></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="food-item salad-type">
+                    <div class="item-wrap bottom-up play-on-scroll">
+                        <div class="item-img">
+                            <div class="img-holder bg-img"
+                                style="background-image: url('images/pureveg.jpg');"></div>
+                        </div>
+                        <div class="item-info">
+                            <div>
+                                <h3>
+                                    Pure Vegan
+                                </h3>
+                                <span>
+                                    90$
+                                </span>
+                            </div>
+                            <div class="cart-btn">
+                                <i class='bx bx-cart-alt'></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="food-item lorem-type">
+                    <div class="item-wrap bottom-up play-on-scroll">
+                        <div class="item-img">
+                            <div class="img-holder bg-img"
+                                style="background-image: url('images/seafood.jpg');"></div>
+                        </div>
+                        <div class="item-info">
+                            <div>
+                                <h3>
+                                    Sea Pack
+                                </h3>
+                                <span>
+                                    190$
+                                </span>
+                            </div>
+                            <div class="cart-btn">
+                                <i class='bx bx-cart-alt'></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </div>
+    </div>
+</section>
+
+<section id="review-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-4 col-xs-12">
+                <div class="review-wrap zoom play-on-scroll delay-2">
+                    <div class="review-content">
+                        <p>
+                            So tasty & delicious food from this resturant. They Provide fresh & healthy food.
+                            Set Menu's are too good with reasonable prices. Serving with great responsibility.
+                            I am glad to review this restaurant. Recommanded.
+                        </p>
+                        <div class="review-img bg-img"
+                            style="background-image: url(images/reviewer1.jpg);">
+                        </div>
+                    </div>
+                    <div class="review-info">
+                        <h3>
+                            Nadhia
+                        </h3>
+                        <div class="rating">
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 col-xs-12">
+                <div class="zoom play-on-scroll">
+                    <div class="review-wrap active">
+                        <div class="review-content">
+                            <p>
+                                This cozy restaurant has left the best impressions! Hospitable hosts, delicious dishes, beautiful presentation, 
+                                wide wine list and wonderful dessert. 
+                                I recommend to everyone! I would like to come back here again and again.
+                            </p>
+                            <div class="review-img bg-img"
+                                style="background-image: url(images/reviewer2.jpg);">
+                            </div>
+                        </div>
+                        <div class="review-info">
+                            <h3>
+                                Vhella
+                            </h3>
+                            <div class="rating">
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 col-xs-12">
+                <div class="review-wrap zoom play-on-scroll delay-4">
+                    <div class="review-content">
+                        <p>
+                            Excellent food. Menu is extensive and seasonal to a particularly high standard. Definitely fine dining. 
+                            It can be expensive but worth it and they do different deals on different nights so it’s worth checking them out before you book.
+                            Highly recommended
+                        </p>
+                        <div class="review-img bg-img"
+                            style="background-image: url(images/reviewer3.jpg);">
+                        </div>
+                    </div>
+                    <div class="review-info">
+                        <h3>
+                            Ion
+                        </h3>
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="footer bg-img" style="background-image: url(images/footer.jpg);">
+    <div class="container">
+        <div class="row">
+            <div class="col-6 col-xs-12">
+                <h1>
+                    Fruitisity
+                </h1>
+                <br>
+                <p>Do yourself a favor and visit this lovely restaurant. We provide the great service that you desire. Our staff truly cares about your experience. The food quality absolutely amazing which you determine. Everything you tasted melted in other mouths. We are try to do our best meal we had while in.</p>
+                <br>
+                <p>Email: abirbeatz@mail.com</p>
+                <p>Phone: +1231231322332</p>
+                <p>Website: github.com/Abir-K</p>
+            </div>
+            <div class="col-2 col-xs-12">
+                <h1>
+                    About us
+                </h1>
+                <br>
+                <p>
+                    <a href="#">
+                        Chefs
+                    </a>
+                </p>
+                <p>
+                    <a href="#">
+                        Menu
+                    </a>
+                </p>
+                <p>
+                    <a href="#">
+                        Reviews
+                    </a>
+                </p>
+            </div>
+            <div class="col-4 col-xs-12">
+                <h1>
+                    Subscribe & Media
+                </h1>
+                <br>
+                <p>We also have a Yutube channel if you fell free get in touch on our youtube channel. We daily update our food menu in youtube. we also have a facebook page Please Like & Share and rate Us on Social Media!</p>
+                <div class="input-group">
+                    <input type="text" placeholder="Enter your email">
+                    <button>
+                        Send
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="index.js"></script>
+</body>
+</html>
