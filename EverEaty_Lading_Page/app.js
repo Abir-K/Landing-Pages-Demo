@@ -1,0 +1,43 @@
+let hero = document.querySelector('.hero');
+let slider = document.querySelector('.slider');
+let slides = slider.querySelectorAll('.slide');
+
+let slide_index = 0;
+
+let can_slide_play = true;
+
+
+let hero_bgs = [
+    './images/hero.jpg',
+    './images/hero2.jpg',
+    './images/hero3.jpg'
+]
+
+showSlide = (index) => {
+    slides.forEach(e => e.classList.remove('active'))
+    slides[index].classList.add('active')
+    hero.style.backgroundImage = `url(${hero_bgs[index]})`
+}
+
+nextSlide = () => {
+    slide_index = slide_index+1 === slides.length ? 0 : slide_index + 1 
+    showSlide(slide_index)
+}
+
+slider.addEventListener('mouseover', () => can_slide_play = false)
+
+slider.addEventListener('mouseleave', () => can_slide_play = true)
+
+showSlide(slide_index)
+
+/*setInterval(() => {
+    if(!can_slide_play) return
+    nextSlide()
+}, 2500);*/
+
+
+slider.querySelectorAll('.slider-control-item').forEach((item, index) => {
+    item.addEventListener('click', () => showSlide(index))
+})
+
+document.querySelector('#mb-menu-toggle').addEventListener('click', () => document.querySelector('#main-menu').classList.toggle('active'))
