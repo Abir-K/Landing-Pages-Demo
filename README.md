@@ -6,5 +6,5 @@ You Can Check Websites Demo Here :
 
 
 
-Fruitisity: https://fruitisity.netlify.app/
+Fruitisity: https://fruitisity.netlify.app/ </br>
 EverEaty: https://evereaty.netlify.app/
